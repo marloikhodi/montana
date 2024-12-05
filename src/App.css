@@ -1,6 +1,15 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  --inter: "Inter", sans-serif;
+  --primary-one: #FF6231;
+  --neutral: #F1F1F1;
+}
+
+* {
   margin: 0;
   padding: 0px;
   border: none;
   text-decoration: none;
+  font-family: var(--inter);
 }

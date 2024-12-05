@@ -1,0 +1,60 @@
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1512px;
+    margin: auto;
+    padding-top: 31px;
+}
+
+.headerNav {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerNav>a>p {
+    color: var(--neutral);
+    padding: 4px;
+}
+
+.headerNav a:nth-child(1) {
+    margin-right: 4px;
+}
+
+.home,
+.experiences,
+.gallery {
+    color: var(--primary-one) !important;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--neutral);
+    border-radius: 25px;
+}
+
+.searchbar input {
+    width: 248px;
+    height: 56px;
+    padding-left: 24px;
+    border-radius: 25px;
+    background-color: var(--neutral);
+    color: var(--primary-one);
+}
+
+.searchbar input {
+    font: 500 16px var(--inter);
+}
+
+.searchbar img {
+    padding: 16px 24px;
+    cursor: pointer;
+}
+
+.searchbar input:focus {
+    outline-width: 0;
+}
