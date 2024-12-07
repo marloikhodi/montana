@@ -1,4 +1,4 @@
-import { Follow, Header, Hero, Things } from "../../components";
+import { Follow, Footer, Header, Hero, Things } from "../../components";
 import styles from "./home.module.css"
 
 export default function Home() {
@@ -7,6 +7,7 @@ export default function Home() {
             <Hero />
             <Things />
             <Follow />
+            <Footer />
         </section>
     )
 }

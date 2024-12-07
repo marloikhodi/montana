@@ -49,13 +49,10 @@
     background-color: var(--neutral);
     color: var(--primary-one);
     font: 500 16px var(--inter);
+    outline-width: 0;
 }
 
 .searchbar img {
     padding: 16px 24px;
     cursor: pointer;
-}
-
-.searchbar input:focus {
-    outline-width: 0;
 }
