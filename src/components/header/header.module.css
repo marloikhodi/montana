@@ -4,7 +4,7 @@
     justify-content: space-between;
     max-width: 1450px;
     margin: auto;
-    padding-top: 31px;
+    padding: 31px 31px 0px;
 }
 
 .headerNav {
@@ -48,9 +48,6 @@
     border-radius: 25px;
     background-color: var(--neutral);
     color: var(--primary-one);
-}
-
-.searchbar input {
     font: 500 16px var(--inter);
 }
 
