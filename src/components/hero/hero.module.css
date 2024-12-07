@@ -3,6 +3,7 @@
     height: 699px;
     background: var(--neutral) url("../../assets/images/homebackground.png") no-repeat top;
     background-size: 100%;
+    background-color: #fff;
 }
 
 .heroTitle {
