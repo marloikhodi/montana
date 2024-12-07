@@ -1,4 +1,4 @@
-import { Header, Hero, Things } from "../../components";
+import { Follow, Header, Hero, Things } from "../../components";
 import styles from "./home.module.css"
 
 export default function Home() {
@@ -6,7 +6,7 @@ export default function Home() {
         <section className={styles.homeContainer}>
             <Hero />
             <Things />
-
+            <Follow />
         </section>
     )
 }
