@@ -1,6 +1,45 @@
-.ThingSection {
+.thingSection {
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 32px 0px 64px;
+}
+
+/* Parte com os textos */
+.textSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 64px;
+}
+
+.textSection>img {
+    width: 74px;
+    padding-bottom: 32px;
+}
+
+.textSection>h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.textSection>p {
+    font-size: 20px;
+    font-weight: 300;
+    width: 500px;
+    text-align: center;
+}
+
+/* Parte com as imagens */
+.imagesSection {
+    display: flex;
+    gap: 24px;
+}
+
+.imagesSection>div {
+    display: flex;
+    max-width: 959px;
+    gap: 24px;
+    flex-wrap: wrap;
 }
