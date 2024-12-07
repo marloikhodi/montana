@@ -1,0 +1,52 @@
+.followSection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px 0px 64px;
+}
+
+.followSection div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 24px;
+    width: 265px;
+    text-align: center;
+}
+
+.followSection div:nth-child(1)>img {
+    width: 78px;
+}
+
+.followSection div:nth-child(1)>h3 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.followSection div:nth-child(1)>p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.followSection div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.followSection>button {
+    display: flex;
+    padding: 12px 24px;
+    border-radius: 25px;
+    margin-top: 48px;
+    background-color: var(--primary-one);
+}
+
+.followSection>button>p {
+    color: var(--neutral);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
