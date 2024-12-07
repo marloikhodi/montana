@@ -1,4 +1,5 @@
-import styles from "./gallery.module.css"
+import Header from "../header"
+import styles from "./gallery.module.css";
 
 export default function GalleryHeader() {
     return (

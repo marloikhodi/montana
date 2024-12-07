@@ -1,11 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-import { Home } from './pages';
+import { Gallery, Home } from './pages';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Home />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/gallery" element={<Gallery />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
