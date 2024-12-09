@@ -1,0 +1,48 @@
+.heroContainer {
+    width: 100%;
+    height: 699px;
+    background: #fff url("../../assets/images/homebackground.png") no-repeat top;
+    background-size: 100%;
+}
+
+.heroTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 140px;
+    color: var(--neutral);
+    text-align: center;
+}
+
+.heroTitle>h3 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 0.3;
+}
+
+.heroTitle>h1 {
+    font-size: 96px;
+    font-weight: 700;
+}
+
+.heroTitle>p {
+    font-size: 20px;
+    font-weight: 300;
+    width: 522px;
+}
+
+.heroTitle>button {
+    display: flex;
+    padding: 12px 24px;
+    border-radius: 25px;
+    margin-top: 24px;
+    background-color: var(--primary-one);
+}
+
+.heroTitle>button>p {
+    color: var(--neutral);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}

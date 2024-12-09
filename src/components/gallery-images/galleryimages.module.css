@@ -1,0 +1,8 @@
+.imagesContainer {
+    max-width: 1450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 64px 0px;
+    gap: 24px;
+}

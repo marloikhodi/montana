@@ -1,0 +1,58 @@
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1450px;
+    margin: auto;
+    padding: 31px 31px 0px;
+}
+
+.headerNav {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerNav>a>p {
+    color: var(--neutral);
+    padding: 4px;
+}
+
+.headerNav a:nth-child(1) {
+    margin-right: 4px;
+}
+
+.headerNav a:not(:first-child) p:hover {
+    text-decoration: underline;
+}
+
+.home,
+.experiences,
+.gallery {
+    color: var(--primary-one) !important;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--neutral);
+    border-radius: 25px;
+}
+
+.searchbar input {
+    width: 248px;
+    height: 56px;
+    padding-left: 24px;
+    border-radius: 25px;
+    background-color: var(--neutral);
+    color: var(--primary-one);
+    font: 500 16px var(--inter);
+    outline-width: 0;
+}
+
+.searchbar img {
+    padding: 16px 24px;
+    cursor: pointer;
+}
