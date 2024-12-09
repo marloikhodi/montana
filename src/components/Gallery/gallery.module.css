@@ -1,0 +1,16 @@
+.galleryHeaderContainer {
+    width: 100%;
+    height: 699px;
+    background: #fff url("../../assets/images/gallerybackground.png") no-repeat top;
+    background-size: 100%;
+}
+
+.galleryHeaderContainer h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+    color: var(--neutral);
+    text-align: center;
+    font-size: 96px;
+    font-weight: 700;
+}
