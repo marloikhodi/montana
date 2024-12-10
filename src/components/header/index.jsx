@@ -10,7 +10,7 @@ export default function Header({ page = null }) {
                     <img src={MontanaLogo} alt="Logo for montana.com" />
                 </a>
                 <Link to="/"><p className={page === "home" ? styles.home : null}>HOME</p></Link>
-                <Link to="/#"><p className={page === "experiences" ? styles.experiences : null}>EXPERIENCES</p></Link>
+                <Link to="/experiences"><p className={page === "experiences" ? styles.experiences : null}>EXPERIENCES</p></Link>
                 <Link to="/gallery"><p className={page === "gallery" ? styles.gallery : null}>GALLERY</p></Link>
             </nav>
             <div className={styles.searchbar}>
