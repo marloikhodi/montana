@@ -3,6 +3,8 @@ import styles from "./footer.module.css"
 import { Link } from "react-router-dom"
 
 export default function Footer() {
+
+
     return (
         <div className={styles.backgroundImage}>
             <section className={styles.footerSection}>
