@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Montana - Projeto Frontend em React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao repositório do **Montana**, um projeto de frontend desenvolvido em **React**, com base em um design exclusivo criado no **Figma**.
 
-## Available Scripts
+## 🎨 Sobre o Design
 
-In the project directory, you can run:
+O design do Montana foi criado inteiramente por mim no Figma, explorando conceitos de usabilidade e estética para criar uma interface moderna e funcional. Confira o wireframe completo clicando no link abaixo:
 
-### `npm start`
+[Figma - Wireframe Montana](https://www.figma.com/design/n8lT1RsBHZWnUxRabUhrku/Wireframe-Montana?node-id=0-1&t=CZfLl2KSVEMpYyk4-1)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🌐 Deploy do Projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+O frontend do Montana foi hospedado na plataforma Vercel e está disponível no seguinte endereço:
 
-### `npm test`
+[Montana - Deploy na Vercel](https://montana-design.vercel.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Tecnologias Utilizadas
 
-### `npm run build`
+- **React.js**: Biblioteca principal para o desenvolvimento da interface.
+- **CSS Modules**: Para estilização modular e reutilizável.
+- **Vercel**: Para hospedagem do projeto.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📂 Estrutura do Repositório
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A estrutura do projeto segue a organização padrão para aplicações React, com componentes reutilizáveis e modularizados:
+montana/ ├── public/ ├── src/ │ ├── components/ │ ├── assets/ │ ├── App.js │
+└── index.js ├── .gitignore ├── package.json └── README.md
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💡 Como Contribuir
 
-### `npm run eject`
+1. Faça um fork deste repositório.
+2. Crie uma branch para suas alterações: `git checkout -b minha-branch`.
+3. Commit suas mudanças: `git commit -m 'Minha contribuição'`.
+4. Envie para o repositório remoto: `git push origin minha-branch`.
+5. Abra um Pull Request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠 Como Rodar o Projeto Localmente
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Siga as etapas abaixo para configurar o projeto em sua máquina local:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone o repositório:**
+   Abra o terminal e execute o comando:
+   ```bash
+   git clone https://github.com/marloikhodi/montana.git
+   ```
+2. **Acesse o diretório do projeto:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   cd montana
+   ```
 
-## Learn More
+3. **Instale as dependências:** Certifique-se de que você possui o Node.js e o npm instalados em sua máquina. Em seguida, execute:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. **Inicie o servidor de desenvolvimento:**
 
-### Code Splitting
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. **Acesse a aplicação:** Abra o navegador e vá para http://localhost:3000. O projeto será carregado automaticamente.
