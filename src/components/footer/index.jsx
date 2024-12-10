@@ -1,5 +1,6 @@
 import { MontanaLogoFooter } from "../../assets/images"
 import styles from "./footer.module.css"
+import { Link } from "react-router-dom"
 
 export default function Footer() {
     return (
@@ -19,11 +20,9 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className={styles.middleSide}>
-                    <p>DISCOVER</p>
-                    <p>FEES</p>
-                    <p>EXPERIENCES</p>
-                    <p>GALLERY</p>
-                    <p>FIND US</p>
+                    <Link to="/"><p>DISCOVER</p></Link>
+                    <Link to="/experiences"><p>EXPERIENCES</p></Link>
+                    <Link to="/gallery"><p>GALLERY</p></Link>
                 </div>
                 <div className={styles.rightSide}>
                     <p>Are you interested?</p>

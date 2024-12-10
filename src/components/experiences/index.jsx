@@ -3,8 +3,9 @@ import styles from "./experiences.module.css"
 
 export default function ExperiencesHeader() {
     return (
-        <section className={styles.experiencesHeader}>
+        <section className={styles.experiencesHeaderContainer}>
             <Header page="experiences" />
+            <h1>EXPERIENCES</h1>
         </section>
     )
 }
