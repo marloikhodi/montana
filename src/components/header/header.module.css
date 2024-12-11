@@ -56,3 +56,5 @@
     padding: 16px 24px;
     cursor: pointer;
 }
+
+@media (max-width: 480px) {}
